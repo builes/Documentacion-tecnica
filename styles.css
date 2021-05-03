@@ -1,0 +1,41 @@
+body {
+  color: #4d4e53;
+  text-align: justify;
+  margin: 0px 30px;
+}
+
+@media (min-width: 750px) {
+  #nabvar header {
+    height: 80px;
+    overflow-y: scroll;
+    float: left;
+    height: 100vh;
+    margin-left: -25px;
+  }
+}
+
+#nabvar header {
+  overflow-y: scroll;
+}
+
+nav header li {
+  border-bottom: solid 1px;
+  padding: 3px;
+}
+
+li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+code {
+  background-color: rgb(229, 226, 226);
+}
